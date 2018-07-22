@@ -29,7 +29,16 @@ p {
 .button-collapse {
   color: #26a69a;
 }
-
+.btn, .btn-large, .btn:hover, .btn-large:hover{
+  background: #bf360c;
+}
+.collection a.collection-item{
+  color: #bf360c;
+}
+.parallax > img{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
 .parallax-container {
   width: 100%;
   min-height: 300px;
