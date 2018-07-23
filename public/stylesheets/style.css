@@ -12,32 +12,26 @@
 .current-language{
   font-weight: bold;
 }
-
 .logo{
   max-height: 2em;
 }
-
 nav ul a,
 nav .brand-logo {
   color: #444;
 }
-
 p {
   line-height: 2rem;
 }
-
 .button-collapse {
   color: #26a69a;
 }
-.btn, .btn-large, .btn:hover, .btn-large:hover{
-  background: #bf360c;
+.flow-text{
+  font-weight: 400;
 }
-.collection a.collection-item{
-  color: #bf360c;
-}
+
 .parallax > img{
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  -webkit-filter: sepia(100%) brightness(65%) grayscale(80%) blur(1px); /* Safari 6.0 - 9.0 */
+  filter: sepia(100%) brightness(65%) grayscale(80%) blur(1px);
 }
 .parallax-container {
   width: 100%;
